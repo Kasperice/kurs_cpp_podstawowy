@@ -31,6 +31,9 @@ INSTANTIATE_TEST_SUITE_P(
         Params{3, -4, std::vector<int>{-4, -8, -12}},
         Params{5, 2, std::vector<int>{2, 4, 6, 8, 10}},
         Params{8, 5, std::vector<int>{5, 10, 15, 20, 25, 30, 35, 40}},
-        Params{10, 5, std::vector<int>{5, 10, 15, 20, 25, 30, 35, 40, 45, 50}}
+        Params{10, 5, std::vector<int>{5, 10, 15, 20, 25, 30, 35, 40, 45, 50}},
+        Params{6, -2, std::vector<int>{-2, -4, -6, -8, -10, -12}}, //added 22.05.2020
+        Params{4, 10, std::vector<int>{10, 20, 30, 40}}, //added 22.05.2020
+        Params{1, 20, std::vector<int>{20}} //added 22.05.2020
     )
 );
